@@ -1,6 +1,7 @@
 # Cloth_Sim_Pipeline
 A CG/Animation pipeline between Houdini and Blender, using Python to manage shots and simulation results. I made this pipline tool to deal with multiple shots requiring cloth & hair simulation in Crash Landing Studio, and also cooperate with other VFX artists & animators.
 
+
 What this tool does is:
 
 1.Input shot parameters, run the script, it will copy my sim template folder under the shot folder, and export character & camera alembic. It will also output other data, like end frame and resolution to sim .hip file.
@@ -13,5 +14,7 @@ What this tool does is:
 
 
 Here's my note of this tool if you're interested:
+
 General explanation of the whole pipeline: https://elevated-temples.notion.site/cloth-hair-simulation-pipeline-of-cls
+
 Coding part: https://elevated-temples.notion.site/advanced-level-scripting-in-cloth-sim-pipeline
